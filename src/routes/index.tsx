@@ -5,7 +5,7 @@ export const Route = createFileRoute("/")({ component: App });
 function App() {
   return (
     <main className="max-w-(--width-container) mt-14 ml-16">
-      <h1 className="text-sm font-bold">blkcsmr</h1>
+      <h1 className="text-sm font-bold">blksmr</h1>
       <p className="text-sm leading-relaxed mb-4">
         Front-end engineer based in France. I build fast, reliable web
         applications with a focus on performance and clean architecture.
