@@ -5,7 +5,6 @@ export const Route = createFileRoute("/")({ component: App });
 function App() {
   return (
     <main className="max-w-(--width-container) mt-14 ml-16">
-      <h1 className="font-bold">blksmr</h1>
       <p>
         Front-end engineer based in France. I build fast, reliable web
         applications with a focus on performance and clean architecture.
@@ -29,11 +28,11 @@ function App() {
         industry.
       </p>
 
-      <div className="mt-4 flex gap-2">
+      <nav className="mt-4 flex gap-2">
         <a className="text-grey" href="mailto:hi@blksmr.com">Email</a>
         <a className="text-grey" href="https://github.com/blksmr">GitHub</a>
         <a className="text-grey" href="https://www.linkedin.com/in/asmirbe/">LinkedIn</a>
-      </div>
+      </nav>
     </main>
   );
 }

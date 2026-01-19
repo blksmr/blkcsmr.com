@@ -13,11 +13,11 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'Asmir Belkic',
+        title: 'blksmr – Front-end Developer & AI Enthusiast',
       },
       {
         name: 'description',
-        content: 'Développeur front-end basé à Lyon, passionné par l\'IA et les interfaces modernes.',
+        content: 'Front-end developer based in Lyon, really into AI and modern interfaces.',
       },
     ],
     links: [
@@ -33,7 +33,7 @@ export const Route = createRootRoute({
 
 function RootComponent() {
   return (
-    <html lang="fr">
+    <html lang="en">
       <head>
         <HeadContent />
       </head>
